@@ -1,0 +1,10 @@
+@import url("index.css");
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
+
+
+.lexend-zetta {
+  font-family: "Lexend Zetta", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
