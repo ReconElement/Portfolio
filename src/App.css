@@ -1,10 +1,16 @@
 @import url("index.css");
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rationale&display=swap');
 
 .lexend-zetta {
   font-family: "Lexend Zetta", serif;
   font-optical-sizing: auto;
   font-weight: 900;
+  font-style: normal;
+}
+
+.rationale-regular {
+  font-family: "Rationale", serif;
+  font-weight: 400;
   font-style: normal;
 }
