@@ -2,6 +2,7 @@ import './App.css'
 import { useState, useEffect } from 'react';
 import {Titlebar } from './components/Titlebar';
 import { Footer } from './components/Footer';
+import Content from './components/Contents';
 function App() {
   const [theme, setTheme] = useState<string>('light');
   useEffect(()=>{
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className='flex flex-col'>
     <div><Titlebar setTheme={setTheme} theme={theme}/></div>
-    <div className="h-full">Content</div>
+    <div className="h-full"><Content/></div>
     <div><Footer/></div>
     </div>
   )
