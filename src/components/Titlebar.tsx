@@ -1,7 +1,7 @@
-import { FormControlLabel, FormGroup } from '@mui/material';
+// import { FormControlLabel, FormGroup } from '@mui/material';
 import Switch from '@mui/material/Switch';
 import '../App.css';
-import { MaterialUISwitch } from '../assets/buttons';
+// import { MaterialUISwitch } from '../assets/buttons';
 
 interface Props{
     setTheme: React.Dispatch<React.SetStateAction<string>>,
@@ -10,7 +10,7 @@ interface Props{
 const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
 export const Titlebar: React.FC<Props> = ({setTheme, theme})=>{
-    const handleTheme = (e: React.MouseEvent<HTMLElement>)=>{
+    const handleTheme = ()=>{
         setTheme(theme==="dark"?"light":"dark");
         // e.preventDefault();
         // e.stopPropagation();
