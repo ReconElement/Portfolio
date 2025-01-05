@@ -1,3 +1,4 @@
+import '../App.css';
 import Techstack from "./Techstacks";
 import Personal from "./Personal";
 const Content = ()=>{

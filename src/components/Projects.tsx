@@ -1,3 +1,4 @@
+import '../App.css';
 import Firstproj from "./Projects/Firstproj";
 import Secondproj from "./Projects/Secondproj";
 import Thirdproj from "./Projects/Thirdproj";
