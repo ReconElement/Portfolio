@@ -1,4 +1,5 @@
 /// <reference types="vite-plugin-svgr/client" />
+import '../App.css';
 import Nodejs from "../ui/Nodejs.tsx";
 import Reactjs from "../ui/Reactjs.tsx";
 import Python from "../ui/Python.tsx";
