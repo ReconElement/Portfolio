@@ -4,8 +4,11 @@ import svgr from 'vite-plugin-svgr';
 
 // https://vite.dev/config/
 export default defineConfig({
+  build: {
+    target: ['chrome115']
+  },
   plugins: [react(), svgr({
     svgrOptions:{},
   })],
-  base: "/portfolio"
+  base: "/BASIC_kirat/Portfolio/dist"
 })
