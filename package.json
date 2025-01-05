@@ -1,5 +1,5 @@
 {
-  "homepage": "https://reconelement.github.io/Portfolio",
+  "homepage": "https://reconelement.github.io/Portfolio/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build dist",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
