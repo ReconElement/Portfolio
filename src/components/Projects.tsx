@@ -10,9 +10,9 @@ const Projects = ()=>{
             </div>
             <div>
                 <ul>
-                <li><Firstproj/></li>
-                <li><Secondproj/></li>
-                <li><Thirdproj/></li>
+                <li><div><Firstproj/></div></li>
+                <li><div><Secondproj/></div></li>
+                <li><div><Thirdproj/></div></li>
                 </ul>
             </div>
         </div>
