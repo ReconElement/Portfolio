@@ -10,5 +10,6 @@ export default defineConfig({
   plugins: [react(), svgr({
     svgrOptions:{},
   })],
-  base: "/BASIC_kirat/Portfolio/dist"
+  // base: "/BASIC_kirat/Portfolio/dist"
+  base: "/Portfolio"
 })
