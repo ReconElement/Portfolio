@@ -74,7 +74,7 @@ const Projects1 = ()=>{
                     <div>{<Projdisplay Projects={Projects} project={project}/>}</div>
                     </li>
                 )
-            })}
+            })} 
             </ul>
         </div>
     </div>
