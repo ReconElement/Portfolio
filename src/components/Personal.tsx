@@ -1,7 +1,7 @@
 import '../App.css';
 import About from "./About";
-import Projects from "./Projects";
 // import Projects1 from "./Projects1";
+import Projects2 from './Project2';
 const Personal = ()=>{
     return(
         <div className="w-full">
@@ -9,7 +9,7 @@ const Personal = ()=>{
                 <About/>
             </div>
             <div>
-                <Projects/>
+                <Projects2/>
             </div>
         </div>
     )
